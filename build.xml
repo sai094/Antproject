@@ -4,7 +4,8 @@
    <target name="create" depends="delete">
       <mkdir dir="d1"/>
         <mkdir dir="d2"/>
-   </target>
+  
+ </target>
 <target name="delete">
       <delete dir="d1"/>
         <delete dir="d2"/>
